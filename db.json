@@ -1,0 +1,95 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "sub-7"
+    },
+    {
+      "id": 2,
+      "name": "sub-9"
+    },
+    {
+      "name": "sub-11",
+      "id": 3
+    },
+    {
+      "name": "sub-13",
+      "id": 4
+    },
+    {
+      "name": "sub-15",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "sub-17"
+    },
+    {
+      "name": "Sub-23",
+      "id": 7
+    },
+    {
+      "name": "Profissional2",
+      "id": 8
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "sub-7 Quarta e Sexta 17:00 - 18:00"
+    },
+    {
+      "id": 2,
+      "name": "sub-9  Quarta e Sexta 19:00 - 20:00"
+    },
+    {
+      "id": 3,
+      "name": "sub-11 - Terça e Quinta 19:00 - 20:00"
+    },
+    {
+      "id": 4,
+      "name": "sub-13 - Terça e Quinta 19:00 - 20:00 "
+    },
+    {
+      "id": 5,
+      "name": "sub-15 - Quarta e Sexta 08:00 - 09:00"
+    }
+  ],
+  "students": [
+    {
+      "name": "Rodrigo César Nunes",
+      "email": "rodrigocnn@gmail.com",
+      "date_of_birth": "16/04/1980",
+      "phone": "(77) 99833-1616",
+      "rg": "0928901560",
+      "address": "Rua São Francisco, 233",
+      "district": "Sandra Regina",
+      "city": "Barreiras",
+      "id": 1
+    },
+    {
+      "name": "Carlos Manoel",
+      "email": "manoel@globo.com",
+      "date_of_birth": "16/04/1675",
+      "phone": "(77)9810-2020",
+      "cpf": "807.527.485-73",
+      "rg": "0928901560",
+      "address": "Rua das Flores",
+      "district": "Sandra Regina",
+      "city": "Barreiras",
+      "id": 2
+    },
+    {
+      "name": "Pedro Novais",
+      "email": "pedro@globo.com",
+      "date_of_birth": "16/04/1980",
+      "phone": "(77) 99833-1616",
+      "cpf": "807.527.485-45",
+      "rg": "09258605",
+      "address": "Rua Macedo, 44",
+      "district": "Sandra Regina",
+      "city": "Barreiras",
+      "id": 3
+    }
+  ]
+}

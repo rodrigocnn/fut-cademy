@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Montserrat', Arial, Tahoma;
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-color: #f4f6f9;
+}
+
+.RowReactDataGridCustom {
+  background: #252d4c !important;
+  color: #fff;
+}
+
+.InovuaReactDataGrid--theme-default-dark .InovuaReactDataGrid__header {
+  background: #10173d;
+  color: #fff;
+}
+
+.InovuaReactDataGrid--theme-default-dark {
+  border: 1px solid #4f575f;
+  background: #252d4c;
+  color: #9ba7b4;
+  fill: #9ba7b4;
+  font-size: 14px;
+}
+
+.inovua-react-pagination-toolbar.inovua-react-pagination-toolbar--theme-default-dark {
+  background: #10173d;
+}
+
+.inovua-react-toolkit-numeric-input.inovua-react-toolkit-numeric-input--theme-default-dark,
+.inovua-react-pagination-toolbar.inovua-react-pagination-toolbar--theme-default-dark
+  .inovua-react-pagination-toolbar__page-size-combo {
+  background: #10173d;
+}
+
+/* Cor de fundo do autocomplete */
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+  -webkit-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0 30px #10173d inset;
+  border-color: transparent; /* Removendo a borda */
+  outline: none;
+}
+
+@layer components {
+  .input-default {
+    @apply block dark:focus:ring-blue-500 w-full
+     rounded-lg bg-primary p-2.5 text-sm text-white
+    focus:border-blue-500 focus:ring-blue-500
+    dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400
+    dark:focus:border-blue-500;
+  }
+
+  .label-appointment {
+    @apply left-1  z-10 origin-[0] -translate-y-4 scale-75 transform  text-sm text-gray-400 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 dark:bg-gray-900 dark:text-gray-500 peer-focus:dark:text-blue-500;
+  }
+  .table-row-default {
+    @apply border-b bg-white dark:border-gray-700 dark:bg-gray-800;
+  }
+}
